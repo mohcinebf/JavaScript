@@ -1,0 +1,5 @@
+v1. where To Put The Code:
+
+    the script tag must be placed after the element is created. Here are a couple of solutions:
+    1. Placing the Script Tag at the End of the Body:
+    2. Using the Script Tag in the Head and Handling the Load Event: window.onload = function(){}
