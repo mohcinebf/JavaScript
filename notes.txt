@@ -13,4 +13,15 @@ v3. Output To Screen:
     - window.alert()
     - document.write()
     - console.log()
-    
+
+v4.Console Methods And Styling And WebAPI:
+
+    console Methods
+        - log
+        - error
+        - table
+
+    web API:
+    Styling Console
+        - Directive %c
+
