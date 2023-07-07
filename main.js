@@ -4,9 +4,10 @@ window.onload = function(){
     //document.write("<h1>Hello <span> Page</span></h1>");
     //console.log("Hello from JS")
     
-    //v3:
+    //v8:
     //console.table(["Mohcine","Peter","Jan"]);
     //console.log("Hello From JS %cFile","color: red; font-size: 40px");
+    
     
 };
 
