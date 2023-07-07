@@ -8,3 +8,9 @@ v2. Comments And Bad Practices:
 
     Single Line Comment: //
     multiple Line Comment: /**/
+
+v3. Output To Screen:
+    - window.alert()
+    - document.write()
+    - console.log()
+    
