@@ -1,0 +1,32 @@
+<!--
+    i have multiple code snippets, all of which perform the same function.
+    I need to write a multiple-line comment in English to explain which specific code will not work and provide the reason behind the issue.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One
+      //The element with the id "el" has not been created yet.
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two
+      // it's working
+      window.onload = function () {
+        document.getElementById("el").style.color = "blue";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three
+      //it's working
+      document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>
