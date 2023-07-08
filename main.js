@@ -20,6 +20,25 @@ window.onload = function(){
     //let aacc = 1;
     // in console you can access the variable only with aacc
 
+    //----------v14 String Syntax And Character Escape Sequences----------
+
+    //console.log('Elzero web "School"');
+    //console.log("Elzero web 'School'");
+    //console.log('Elzero web \'School\'');
+    //console.log("Elzero web \"School\"");
+    //console.log("Elzero \\web School");
+    //console.log("Elzero \
+//web \
+//School");
+    //console.log("Elzero\nweb\nSchool");
+
+
+
+
+
+
+
+
 
 
 

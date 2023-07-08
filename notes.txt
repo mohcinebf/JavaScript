@@ -45,3 +45,8 @@ v13.Var, Let, Const Compare:
     - Variable Scope Drama [Added To Window] ()
     - Block or Function Scope
 
+v14.String Syntax And Character Escape Sequences:
+
+    String Syntax + Character Escape Sequences
+    \ Escape + Line Continue
+    \n
