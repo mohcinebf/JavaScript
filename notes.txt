@@ -25,4 +25,23 @@ v8.Console Methods And Styling And WebAPI:
     Styling Console
         - Directive %c
 
+v13.Var, Let, Const Compare:
+
+    var 
+    - Redeclare(yes)
+    - Access Before Declare (undefined)
+    - Variable Scope Drama [Added To Window] ()
+    - Block or Function Scope
+
+    Let
+    - Redeclare(No => Error)
+    - Access Before Declare (Error)
+    - Variable Scope Drama ()
+    - Block or Function Scope
+
+    Const
+    - Redeclare(No => Error)
+    - Access Before Declare (Error)
+    - Variable Scope Drama [Added To Window] ()
+    - Block or Function Scope
 
