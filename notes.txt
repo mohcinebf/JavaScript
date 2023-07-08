@@ -50,3 +50,8 @@ v14.String Syntax And Character Escape Sequences:
     String Syntax + Character Escape Sequences
     \ Escape + Line Continue
     \n
+
+v16.Template Literals Template Strings:
+
+    Template Literals (Template Strings)
+

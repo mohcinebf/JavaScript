@@ -33,6 +33,17 @@ window.onload = function(){
     //console.log("Elzero\nweb\nSchool");
 
 
+    //----------v16.Template Literals Template Strings----------
+
+    //let a = "We Love";
+    //let b = "JavaScript";
+    //let c = "And";
+    //let d = "Programming";
+    
+    //console.log(`${a} "" '' \\ ${b}
+//${c} ${d} ${2+2}`);
+
+
 
 
 
