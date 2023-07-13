@@ -44,6 +44,23 @@ window.onload = function(){
 //${c} ${d} ${2+2}`);
 
 
+ //----------v19.Unary Plus And Negation Operators----------
+ //var a = +"100";
+//console.log(100);
+//console.log(+"100"); //convert String to number
+//console.log(+"-100");
+//console.log(+"Ossama");//"NAN"
+//console.log(+0xff);
+//console.log(+null);//0
+//console.log(+false);//0
+//console.log(+true);//1
+
+//console.log(-"100"); //convert String to number: -100
+//console.log(-"-100");// :100
+//console.log(-"Ossama");// :"NAN"
+//console.log(-null);//-0
+//console.log(-false);//-0
+//console.log(-true);//-1
 
 
 

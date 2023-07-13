@@ -55,3 +55,8 @@ v16.Template Literals Template Strings:
 
     Template Literals (Template Strings)
 
+
+v19.Unary Plus And Negation Operators:
+    +...Unary Plus [Return Number If it's not Number]
+    -...Unary Negation [Return Number if not Number + Nrgates It]
+
