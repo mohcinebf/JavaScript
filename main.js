@@ -63,6 +63,22 @@ window.onload = function(){
 //console.log(-true);//-1
 
 
+ //----------v20.Type Coercion----------
+let a = "10";
+let b = 20;
+let c = true;
+console.log(a+b);//1020
+console.log(+a+b);//30
+console.log(a - b);//-10
+console.log(b - a);//10
+console.log("Mohcine"-b);//NAN
+console.log(+"");//0
+console.log(""-2);//-2
+console.log(false-true);//-1
+console.log(a + b + c);//1020true
+console.log(+a + b + c);//31
+
+
 
 
 
