@@ -108,18 +108,27 @@ Explain: plus, Unary Plus, concatebation
 
 /* Challenge 2 */
 
-let d = "-100";
-let e = "20";
-let f = 30;
-let g = true;
-// 100/20 = 5
+// let d = "-100";
+// let e = "20";
+// let f = 30;
+// let g = true;
+// // 100/20 = 5
 
-//Only use variables value
-//Do not use variable twice
-100
-console.log(-d*+e); // 2000
-console.log(); // 173
+// //Only use variables value
+// //Do not use variable twice
+// 100
+// console.log(-d*+e); // 2000
+// console.log(); // 173
 
+
+ //----------23.Number----------
+//  console.log(1000000);
+//  console.log(1_000_000);
+//  console.log(1e6);
+//  console.log(10**6);
+//  console.log(1000000.000);
+//  console.log(Number.MAX_SAFE_INTEGER);
+//  console.log(Number.MAX_VALUE);
 
 
 

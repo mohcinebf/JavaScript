@@ -68,3 +68,14 @@ v20.Type Coercion
 
 22.Operators Challenges
     - Homework
+
+23.Number
+    - Double Precision
+    - Syntactic Sugar "_"
+    - e 
+    - **
+    - with Decimal
+    - Number + BigInt
+    - Number Min Value
+    - Number Max Value
+
