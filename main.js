@@ -64,23 +64,61 @@ window.onload = function(){
 
 
  //----------v20.Type Coercion----------
-let a = "10";
-let b = 20;
-let c = true;
-console.log(a+b);//1020
-console.log(+a+b);//30
-console.log(a - b);//-10
-console.log(b - a);//10
-console.log("Mohcine"-b);//NAN
-console.log(+"");//0
-console.log(""-2);//-2
-console.log(false-true);//-1
-console.log(a + b + c);//1020true
-console.log(+a + b + c);//31
+// let a = "10";
+// let b = 20;
+// let c = true;
+// console.log(a+b);//1020
+// console.log(+a+b);//30
+// console.log(a - b);//-10
+// console.log(b - a);//10
+// console.log("Mohcine"-b);//NAN
+// console.log(+"");//0
+// console.log(""-2);//-2
+// console.log(false-true);//-1
+// console.log(a + b + c);//1020true
+// console.log(+a + b + c);//31
 
 
+ //----------v22.Operators Challenges----------
+/* Challenge 1 */
+// let a = 10;
+// let b = "20";
+// let c = 80;
 
+// console.log(++a + +b++ + +c++ - +a++);// 11+20+80-11 => 100; a=12, b=21, c=81 
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(++a + -b +c++ - -a++ + +a);//13 + -21 + 81 - -13 + 14 => 100; a=14, b=21, c=82 
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(--c + +b + --a * +b++ - +b * a + --a - +true);//81 + 21 + 13 * 21 - 22 * 13 + 12 - 1=> 100; a=12, b=22, c=81 
+// console.log(a);
+// console.log(b);
+// console.log(c);
+/*
+[++a] [+]
+[++a]
+Value: 11
+Explain: Preorder
+[+]
+Explain: plus, Unary Plus, concatebation
+*/
 
+/* Challenge 2 */
+
+let d = "-100";
+let e = "20";
+let f = 30;
+let g = true;
+// 100/20 = 5
+
+//Only use variables value
+//Do not use variable twice
+100
+console.log(-d*+e); // 2000
+console.log(); // 173
 
 
 
