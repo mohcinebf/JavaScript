@@ -88,3 +88,13 @@ v20.Type Coercion
     - isInteger() [ES6]
     - inNaN() [ES6]
 
+25.Math Object
+    - round()
+    - ceil()
+    - floor()
+    - min()
+    - max()
+    - pow()
+    - random()
+    - trunc() [ES6]
+

@@ -151,6 +151,24 @@ Explain: plus, Unary Plus, concatebation
 // console.log(Number.isNaN(+"100 Mohcine"));//true
 
 
+//----------25.Math Object----------
+// console.log(Math.round(99.2));//99
+// console.log(Math.round(99.5));//100
+
+// console.log(Math.ceil(99.2));//100
+// console.log(Math.floor(99.6));//99
+
+// console.log(Math.min(10,20,100,-100,90));
+// console.log(Math.max(10,20,100,-100,90));
+
+// console.log(Math.pow(2,3));//8
+
+// console.log(Math.random());// get a random number
+
+// console.log(Math.trunc(99.5));//Returns the integral part : 99
+
+
+
 
 
 
