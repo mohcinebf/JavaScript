@@ -79,3 +79,12 @@ v20.Type Coercion
     - Number Min Value
     - Number Max Value
 
+24.Number Methods
+    - Two dots to call a Methods
+    - toString()
+    - toFixed()
+    - parseInt()
+    - parseFloat()
+    - isInteger() [ES6]
+    - inNaN() [ES6]
+

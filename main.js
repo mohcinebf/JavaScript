@@ -131,6 +131,26 @@ Explain: plus, Unary Plus, concatebation
 //  console.log(Number.MAX_VALUE);
 
 
+//----------24.Number Methods----------
+// console.log((100).toString());
+// console.log(110.10.toString());
+// console.log(120..toString());
+
+// console.log(130.55555.toFixed(2));//round up and it convert number to a string
+
+// console.log(Number("100 Mohcine"));//NAN
+// console.log(+"100 Mohcine");//NAN
+// console.log(parseInt("140.40 Mohcine"));//140
+// console.log(parseInt("Mohcine 100 Mohcine"));//NAN
+// console.log(parseFloat("150.50 Mohcine"));
+
+// console.log(Number.isInteger("100"));//false because it's a string
+// console.log(Number.isInteger(100.50));//false because it's a float
+// console.log(Number.isInteger(100));//true because it's an integer
+
+// console.log(Number.isNaN(+"100 Mohcine"));//true
+
+
 
 
 
