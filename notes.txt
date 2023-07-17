@@ -98,3 +98,7 @@ v20.Type Coercion
     - random()
     - trunc() [ES6]
 
+26.Number Challenge
+    - exercise
+
+

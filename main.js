@@ -168,7 +168,29 @@ Explain: plus, Unary Plus, concatebation
 // console.log(Math.trunc(99.5));//Returns the integral part : 99
 
 
+//----------26.Number Challenge----------
 
+let a = 1_00;
+let b = 2_00.5;
+let c = 1e2;
+let d = 2.4;
+
+// Find smallest number in all variables and return integer
+console.log(Math.trunc(Math.min(a,b,c,d)));
+
+// Use variable a + d one time to get the needed output
+console.log(Math.pow(a,Math.floor(d))); // 10000 
+
+// Get Integer "2" from d variable with 4 methods
+
+console.log(parseInt(d));
+console.log(Math.trunc(d));
+console.log(Math.floor(d));
+console.log(Math.round(d));
+
+// Use variables b + d to get this values
+console.log((parseInt(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
+console.log(Math.round((parseInt(b) / Math.ceil(d)))); // 67 => number
 
 
 
