@@ -170,27 +170,39 @@ Explain: plus, Unary Plus, concatebation
 
 //----------26.Number Challenge----------
 
-let a = 1_00;
-let b = 2_00.5;
-let c = 1e2;
-let d = 2.4;
+// let a = 1_00;
+// let b = 2_00.5;
+// let c = 1e2;
+// let d = 2.4;
 
-// Find smallest number in all variables and return integer
-console.log(Math.trunc(Math.min(a,b,c,d)));
+// // Find smallest number in all variables and return integer
+// console.log(Math.trunc(Math.min(a,b,c,d)));
 
-// Use variable a + d one time to get the needed output
-console.log(Math.pow(a,Math.floor(d))); // 10000 
+// // Use variable a + d one time to get the needed output
+// console.log(Math.pow(a,Math.floor(d))); // 10000 
 
-// Get Integer "2" from d variable with 4 methods
+// // Get Integer "2" from d variable with 4 methods
 
-console.log(parseInt(d));
-console.log(Math.trunc(d));
-console.log(Math.floor(d));
-console.log(Math.round(d));
+// console.log(parseInt(d));
+// console.log(Math.trunc(d));
+// console.log(Math.floor(d));
+// console.log(Math.round(d));
 
-// Use variables b + d to get this values
-console.log((parseInt(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
-console.log(Math.round((parseInt(b) / Math.ceil(d)))); // 67 => number
+// // Use variables b + d to get this values
+// console.log((parseInt(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
+// console.log(Math.round((parseInt(b) / Math.ceil(d)))); // 67 => number
+
+
+//----------27.String Methods Part 1----------
+
+// let thename = "Mohcine";
+// console.log(thename[0]); //M
+// console.log(thename.charAt(1));//o
+// console.log(thename.length);//7
+// console.log(thename.trim().length);//remove the space but local
+// console.log(thename.toUpperCase());//MOHCINE
+// console.log(thename.toLowerCase());//mohcine
+// console.log(thename.charAt(2).toUpperCase());//H
 
 
 

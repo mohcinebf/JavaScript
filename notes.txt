@@ -101,4 +101,13 @@ v20.Type Coercion
 26.Number Challenge
     - exercise
 
+27.String Methods Part 1
+    - Access with Index
+    - Access with charAt()
+    - length
+    - trim()
+    - toUpperCase()
+    - toLowerCase()
+    - Chain Methods
+
 
