@@ -205,6 +205,29 @@ Explain: plus, Unary Plus, concatebation
 // console.log(thename.charAt(2).toUpperCase());//H
 
 
+//----------28.String Methods Part 2----------
+
+let a = "Elzero web School";
+//       0123456789
+
+// console.log(a.indexOf("web"));// 7, count from 0
+// console.log(a.indexOf("web", 8));// -1
+// console.log(a.indexOf("o"));// 5
+
+// console.log(a.lastIndexOf("o"));// 15
+
+// console.log(a.slice(2,8));// zero w, not including the end
+// console.log(a.slice(-5));//chool star count from right with 1
+// console.log(a.slice(-5,-3));//ch 
+
+// console.log(a.repeat(2));// Elzero web School Elzero web School
+// console.log(a.split()); // array[0: Elzero web School]
+// console.log(a.split(" ")); // array[0: Elzero] [1: web] [2: School]
+// console.log(a.split(" ",2)); // array[0: Elzero] [1: web] 
+// console.log(a.split("o")); // array [0: 'Elzer', 1: ' web Sch', 2: '', 3: 'l']
+
+
+
 
 };
 

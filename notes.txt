@@ -110,4 +110,11 @@ v20.Type Coercion
     - toLowerCase()
     - Chain Methods
 
+28.String Methods Part 2
+    - indexOf(Value [Mand], Start [Opt] 0)
+    - lastIndexOf(Value [Mand], Start [Opt] Length)
+    - slice(Start [Mand], End [Opt] not include End)
+    - repeat(Times) [ES6]
+    - split(Separator [Opt], Limit [Opt])
+
 
