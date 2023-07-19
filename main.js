@@ -207,7 +207,7 @@ Explain: plus, Unary Plus, concatebation
 
 //----------28.String Methods Part 2----------
 
-let a = "Elzero web School";
+//let a = "Elzero web School";
 //       0123456789
 
 // console.log(a.indexOf("web"));// 7, count from 0
@@ -226,6 +226,21 @@ let a = "Elzero web School";
 // console.log(a.split(" ",2)); // array[0: Elzero] [1: web] 
 // console.log(a.split("o")); // array [0: 'Elzer', 1: ' web Sch', 2: '', 3: 'l']
 
+
+//----------29.String Methods Part 3----------
+
+// let a = "Elzero web School";
+// console.log(a.substring(2,6));//zero
+// console.log(a.substring(6,2));//zero
+// console.log(a.substring(-10,6));// from 0 to 6
+
+// console.log(a.substr(0,6));//Elzero
+// console.log(a.substr(-5,2));//ch
+
+// console.log(a.includes("web",1));//true
+// console.log(a.startsWith("E"));//true
+// console.log(a.endsWith("l",17));//true ,length
+// console.log(a.endsWith("l",16));//false 
 
 
 

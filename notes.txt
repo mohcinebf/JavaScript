@@ -117,4 +117,16 @@ v20.Type Coercion
     - repeat(Times) [ES6]
     - split(Separator [Opt], Limit [Opt])
 
+29.String Methods Part 3
+    - Substring(start [Mand], End [Opt] not including End)
+    --- Start > End will swap
+    --- Start < 0 it start from 0
+    --- Use length to get last character
+    - Substr(start [Mand], character to extract((how many character)))
+    --- Start >= length = "" 
+    --- Megative Start from end
+    - includes(value [Mand], Star [Opt] default 0) [ES6]
+    - StartsWith(value [Mand], Start [Opt] default 0)[ES6]
+    - endswith(value [Mand], Length [Opt] default full length) [ES6]
+
 
