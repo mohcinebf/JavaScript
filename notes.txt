@@ -129,4 +129,6 @@ v20.Type Coercion
     - StartsWith(value [Mand], Start [Opt] default 0)[ES6]
     - endswith(value [Mand], Length [Opt] default full length) [ES6]
 
+30.String Challenge
+    - Challenge
 

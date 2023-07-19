@@ -243,6 +243,32 @@ Explain: plus, Unary Plus, concatebation
 // console.log(a.endsWith("l",16));//false 
 
 
+//----------30.String Challenge----------
+
+/*
+All solutions must be in one chain
+you can use concatenate
+*/
+
+// let a = "Elzero Web School";
+
+// // Include this methods in your solution [slice, charAt]
+// console.log(a.slice(2,6).charAt(0).toUpperCase()+a.slice(3,6)); // Zero
+
+// // 8 H
+// console.log(a.substr(-4,1).toUpperCase().repeat(8)); // HHHHHHH
+
+// // Return Array
+// console.log(a.split(" ")[0]); // [Elzero]
+
+// // Use only "substr" method + template literals in your solution
+// console.log(a.substr(0,6),a.substr(-6)); // Elzero School
+
+// // Solution must be dynamic and string may change
+// //"Elzero Web School"
+// console.log(a.charAt(a.startsWith()).toLowerCase()+a.substring(1,7).toUpperCase() + a.substring(7,11).toUpperCase() + a.substring(11,a.length-1).toUpperCase() + a.charAt(a.length-1).toLowerCase()); // eLZERO WEB SCHOOl
+
+
 
 };
 
